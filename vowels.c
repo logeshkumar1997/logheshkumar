@@ -1,12 +1,15 @@
 #include<stdio.h>
 main()
 {
-char a[5],i,v
-printf("enter the vowels");
-for(i=0,i<6;i++)
-{
-scanf("%c",&a[i]);
+char d;
+  printf(" enter the charecter ");
+  scanf("%c",&d);
+  if(d=='a'||d=='e'||d=='i'||d=='o'||d=='u')
+  {
+    printf("given character %c is charaecter ",d)
+  }
+  else
+  {
+    printf(" given charecter %c is  constant",d);
+  }
 }
-printf("enter the charecter");
-scanf("%c",&v
-for(i=0
